@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    width: 500px;
+}
+
+input, button {
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+button {
+    background-color: rgb(57, 138, 57);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(75, 178, 75);
+}
+
+.message-sucess {
+    background-color: rgb(57, 138, 57);
+    color: white;
+    padding: 16px;
+    text-align: center;
+    display: none;
+}
+
+.message-error {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    display: none;
+}
