@@ -9,7 +9,7 @@ form.addEventListener('submit', function(e) {
     const messageSucess = document.querySelector('.message-sucess');
     const messageError = document.querySelector('.message-error');
 
-    if (campoA.value < campoB.value) {  
+    if (parseFloat(campoA.value) < parseFloat(campoB.value)) {  
         messageError.style.display = 'none';
         messageSucess.style.display = 'block'
     } else {
