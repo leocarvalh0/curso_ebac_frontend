@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.container {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 18px;
+}
+
+button {
+    font-weight: bold;
+}
+
+input {
+    margin-right: 8px;
+}
+
+ul {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+li {
+    font-size: 18px;
+    position: relative;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
