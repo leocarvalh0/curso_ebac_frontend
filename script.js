@@ -9,6 +9,6 @@ $('form').on('submit', function(e) {
     $('#nome-tarefa').val('');
 })
 
-$('ul').click(function() {
-    $('span').css("text-decoration", "line-through")
-})
+$('ul').on('click', 'li', function(e) {
+    $(e.target).find('span').css("text-decoration", "line-through");
+});
