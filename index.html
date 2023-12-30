@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos na Nuvem</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>CloudGaming</h1>
+                <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#carousel-games" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#jogos" class="nav-link">Jogos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="carousel-games" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img src="https://t.ctcdn.com.br/IQB1faWZzJqpHlX2gMGEEQmRBMo=/1920x1080/smart/i328743.jpeg" alt="Foto do jogo GTA 5" class="d-block w-100 img-fluid">
+                <div class="carousel-caption">
+                    <h2>GTA 5</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/warzone2/mw3/meta/season-1/s1-wz-meta-thumb.jpg" alt="Foto do jogo Warzone" class="d-block w-100 img-fluid">
+                <div class="carousel-caption">
+                    <h2>Warzone</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://www.gamersegames.com.br/wp-content/uploads/2020/06/The-Last-of-Us-Part-II_Capa.jpg" alt="Foto do jogo The Last Of Us 2" class="d-block w-100 img-fluid h-50">
+                <div class="carousel-caption">
+                    <h2>The Last Of Us 2</h2>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-games" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-games" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-games" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-games" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-games" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <section id="jogos">
+        <h2>Jogos</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/transferir (1).jpeg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">GTA 5</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/fortnite.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Fortnite</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/warzone.jpeg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Warzone</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/pubg.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Pubg</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/rde2.jpeg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Red dead redenption 2</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 cartao">
+                    <div class="card text-bg-dark">
+                        <img src="images/tlou.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">The last of us 2</h4>
+                            <a href="#" class="btn btn-primary">Jogue Agora</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
