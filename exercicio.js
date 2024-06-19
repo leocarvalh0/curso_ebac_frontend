@@ -16,7 +16,7 @@ const alunosAprovados = alunos.some(function(item) {
 
 console.log('Alunos REPROVADOS:')
 const alunosReprovados = alunos.some(function(item) {
-    if (item.nota <= 6) {
+    if (item.nota < 6) {
         console.log(`Nome: ${item.nome}, Nota: ${item.nota}`);
     }
 })
